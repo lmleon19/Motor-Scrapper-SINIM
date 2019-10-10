@@ -46,6 +46,8 @@ namespace CobranzaV1
                 //Directory.CreateDirectory(ruta + "-xlsx\\2014");
                 //Directory.CreateDirectory(ruta + "-xlsx\\2015");
                 //Directory.CreateDirectory(ruta + "-xlsx\\2016");
+                Directory.CreateDirectory(ruta + "-xlsx\\2017");
+                Directory.CreateDirectory(ruta + "-xlsx\\2018");
             }
 
             if (!Directory.Exists(ruta + "\\"+ ANO ))
@@ -217,6 +219,8 @@ namespace CobranzaV1
                 //Directory.CreateDirectory(ruta + "-xlsx\\2014");
                 //Directory.CreateDirectory(ruta + "-xlsx\\2015");
                 //Directory.CreateDirectory(ruta + "-xlsx\\2016");
+                Directory.CreateDirectory(ruta + "-xlsx\\2017");
+                Directory.CreateDirectory(ruta + "-xlsx\\2018");
             }
 
             if (!Directory.Exists(ruta + "\\" + ANO))
