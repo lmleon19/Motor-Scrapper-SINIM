@@ -46,8 +46,10 @@ namespace CobranzaV1
                 //Directory.CreateDirectory(ruta + "-xlsx\\2014");
                 //Directory.CreateDirectory(ruta + "-xlsx\\2015");
                 //Directory.CreateDirectory(ruta + "-xlsx\\2016");
-                Directory.CreateDirectory(ruta + "-xlsx\\2017");
-                Directory.CreateDirectory(ruta + "-xlsx\\2018");
+                //Directory.CreateDirectory(ruta + "-xlsx\\2017");
+                //Directory.CreateDirectory(ruta + "-xlsx\\2018");
+                Directory.CreateDirectory(ruta + "-xlsx\\2019");
+                Directory.CreateDirectory(ruta + "-xlsx\\2020");
             }
 
             if (!Directory.Exists(ruta + "\\"+ ANO ))
@@ -219,8 +221,10 @@ namespace CobranzaV1
                 //Directory.CreateDirectory(ruta + "-xlsx\\2014");
                 //Directory.CreateDirectory(ruta + "-xlsx\\2015");
                 //Directory.CreateDirectory(ruta + "-xlsx\\2016");
-                Directory.CreateDirectory(ruta + "-xlsx\\2017");
-                Directory.CreateDirectory(ruta + "-xlsx\\2018");
+                //Directory.CreateDirectory(ruta + "-xlsx\\2017");
+                //Directory.CreateDirectory(ruta + "-xlsx\\2018");
+                //Directory.CreateDirectory(ruta + "-xlsx\\2019");
+                Directory.CreateDirectory(ruta + "-xlsx\\2020");
             }
 
             if (!Directory.Exists(ruta + "\\" + ANO))
@@ -235,7 +239,6 @@ namespace CobranzaV1
 
             
             int AAA = 183;
-            //--------AÑO 2016--------
             AAA = 183;
             while (AAA < 529)
             {
